@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".input_details_activites.feedback">
+
+    <TextView
+        android:id="@+id/verified_tv"
+        style="@style/CategoryStyle"
+        android:text="@string/verified"
+        android:background="@color/verified" />
+
+    <TextView
+        android:id="@+id/no_response_tv"
+        style="@style/CategoryStyle"
+        android:text="@string/no_response"
+        android:background="@color/no_response"/>
+
+    <TextView
+        android:id="@+id/scam_tv"
+        style="@style/CategoryStyle"
+        android:text="@string/scam"
+        android:background="@color/scam" />
+
+
+</LinearLayout>

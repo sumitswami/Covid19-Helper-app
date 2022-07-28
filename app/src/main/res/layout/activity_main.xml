@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tanBackground"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/oxygen_cylinder_tv"
+        style="@style/CategoryStyle"
+        android:text="@string/oxygen_cylinder"
+        android:background="@color/oxygen_cylinder" />
+    <TextView
+        android:id="@+id/plasma_tv"
+        style="@style/CategoryStyle"
+        android:text="@string/plasma"
+        android:background="@color/plasma" />
+    <TextView
+        android:id="@+id/beds_tv"
+        style="@style/CategoryStyle"
+        android:text="@string/beds"
+        android:background="@color/beds" />
+    <TextView
+        android:id="@+id/corona_patients_tv"
+        style="@style/CategoryStyle"
+        android:text="@string/corona_patients"
+        android:background="@color/corona_patients" />
+    <TextView
+        android:id="@+id/post_tv"
+        style="@style/CategoryStyle"
+        android:text="@string/post"
+        android:background="@color/post" />
+    <TextView
+        android:id="@+id/vaccination"
+        style="@style/CategoryStyle"
+        android:text="Vaccination"
+        android:background="@color/oxygen_cylinder"
+        />
+
+
+</LinearLayout>

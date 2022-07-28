@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/address_item_tv"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="MBS Nursery government college, near baran road" />
+
+        <TextView
+            android:id="@+id/lead_item_tv"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="end"
+            android:maxLines="2"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Oxygen Cylinder" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/city_item_tv"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            tools:text="Kota, Rajasthan (324001)" />
+
+        <TextView
+            android:id="@+id/contact_item_tv"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textAlignment="textEnd"
+            android:textSize="20sp"
+            tools:text="9413313008" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/is_verified_item_tv"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="Not Verified"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/distance_item_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textAlignment="textEnd"
+            android:textColor="#4A312A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="4.2 km" />
+
+    </LinearLayout>
+
+</LinearLayout>

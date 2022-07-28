@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4A312A</color>
+    <color name="colorPrimaryDark">#2F1D1A</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="tanBackground">#FFF7DA</color>
+    <color name="oxygen_cylinder">#33830F</color>
+    <color name="plasma">#CE3F08</color>
+    <color name="beds">#03538F</color>
+    <color name="post">#918D02</color>
+    <color name="corona_patients">#EE9716</color>
+
+    <color name="verified">#33830F</color>
+    <color name="no_response">#F09775</color>
+    <color name="scam">#E21506</color>
+</resources>
